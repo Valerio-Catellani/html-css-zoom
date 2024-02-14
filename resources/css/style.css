@@ -74,7 +74,7 @@ main {
   min-width: 300px;
 }
 
-.user-information {
+.user img .user-information {
   padding: 7px;
   left: 0;
   bottom: 0;
