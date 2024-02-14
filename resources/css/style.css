@@ -64,7 +64,7 @@
 
 main {
   width: 80%;
-  height: calc(100% - (20px + 20px) - 70px - 90px);
+  height: calc(100% - (20px + 20px) - 70px - 85px);
   margin: 20px auto;
 }
 
@@ -85,7 +85,7 @@ main {
 /******************************** TOOLBAR *****************************************/
 
 #toolbar {
-  height: 90px;
+  height: 85px;
   width: 100%;
 }
 
