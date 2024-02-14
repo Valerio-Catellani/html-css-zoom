@@ -18,10 +18,13 @@
 
     <div id="speaker-view" class="display-flex justify-content-flex-end align-items-center width-100x100  ">
       <!-- comment on css -->
-      <div class="background-toolbar-light"><a class="font-size-em-125"><i class="fa-solid fa-grip"></i> Speaker
-          View</a>
+      <div class="background-toolbar-light">
+        <p class="font-size-em-125 pointer"><i class="fa-solid fa-grip"></i> Speaker
+          View</p>
       </div>
-      <div class="background-toolbar-light"><a class="font-size-em-125"><i class="fa-solid fa-maximize"></i></a></div>
+      <div class="background-toolbar-light">
+        <p class="font-size-em-125 pointer"><i class="fa-solid fa-maximize"></i></p>
+      </div>
     </div>
 
     <main class="display-flex justify-content-space-around flex-wrap gap-10 overflow-y-auto">
@@ -228,7 +231,63 @@
     </main>
 
 
-    <div class="toolbar">
+    <div id="toolbar"
+      class="background-toolbar-dark display-flex justify-content-space-between align-items-center overflow-y-auto flex-wrap">
+
+      <div class="acquisition display-flex align-items-center">
+        <div class="text-align-center">
+          <i class="fa-solid fa-microphone font-size-em-200 padding-5"></i>
+          <p>Mute</p>
+        </div>
+        <div><i class="fa-solid fa-chevron-up"></i></div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-video font-size-em-200 padding-5"></i>
+          <p>Stop Video</p>
+        </div>
+        <div><i class="fa-solid fa-chevron-up"></i></div>
+
+      </div>
+
+      <div class="commands display-flex align-items-center">
+        <div class="text-align-center">
+          <i class="fa-solid fa-user-plus font-size-em-200 padding-5"></i>
+          <p>Invite</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-user-group font-size-em-200 padding-5"></i>
+          <p>Manage Partecipants</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-chart-column font-size-em-200 padding-5"></i>
+          <p>Polling</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-share-from-square font-size-em-200 padding-5 color-icon-green"></i>
+          <p>Share Screen</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-comment font-size-em-200 padding-5"></i>
+          <p>Chat</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-record-vinyl font-size-em-200 padding-5"></i>
+          <p>Record</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-border-all font-size-em-200 padding-5"></i>
+          <p>Breakout Rooms</p>
+        </div>
+        <div class="text-align-center">
+          <i class="fa-solid fa-ellipsis font-size-em-200 padding-5"></i>
+          <p>More</p>
+        </div>
+
+
+      </div>
+
+      <div class="recording display-flex align-items-center background-toolbar-light  pointer">
+        <p class="color-red font-weight-bold padding-20">End Meeting</p>
+      </div>
 
     </div>
   </div>

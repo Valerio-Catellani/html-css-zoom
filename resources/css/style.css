@@ -43,8 +43,8 @@
 
 #speaker-view {
   padding: 10px;
-  height: 100px;
-  /*ho dato un altezza fissa di 100px in modo da poter definire mediante cal un altezza certa del main. In questo modo, non potendosi allungare all'infinito in base al suo contenuto non potrà andare in overflow. Per questo, è stata inserita la classe overflow-y-auto che aggiungerà, all'evenienza, un barra di scorrimento laterale SOLAMENTE interna al main*/
+  height: 70px;
+  /*ho dato un altezza fissa di 70px in modo da poter definire mediante cal un altezza certa del main. In questo modo, non potendosi allungare all'infinito in base al suo contenuto non potrà andare in overflow. Per questo, è stata inserita la classe overflow-y-auto che aggiungerà, all'evenienza, un barra di scorrimento laterale SOLAMENTE interna al main*/
 }
 
 #speaker-view div {
@@ -64,8 +64,8 @@
 
 main {
   width: 80%;
-  height: calc(100% - (30px + 30px) - 100px);
-  margin: 30px auto;
+  height: calc(100% - (20px + 20px) - 70px - 90px);
+  margin: 20px auto;
 }
 
 .user {
@@ -83,3 +83,18 @@ main {
 }
 
 /******************************** TOOLBAR *****************************************/
+
+#toolbar {
+  height: 90px;
+  width: 100%;
+}
+
+.acquisition div,
+.commands div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.recording {
+  align-self: normal;
+}

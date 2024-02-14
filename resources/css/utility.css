@@ -333,6 +333,13 @@ ul {
 }
 
 
+/** Font-Weight **/
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+
 /*text position*/
 
 .text-align-center {
