@@ -33,7 +33,6 @@
   color: var(--color-red-color);
 }
 
-
 * {
   color: var(--color-secondary-color);
   font-size: 1rem;
@@ -42,16 +41,45 @@
 
 /************************************ NAVBAR *************************************/
 
-nav {
-  top: 0;
-  right: 0;
+#speaker-view {
   padding: 10px;
+  height: 100px;
+  /*ho dato un altezza fissa di 100px in modo da poter definire mediante cal un altezza certa del main. In questo modo, non potendosi allungare all'infinito in base al suo contenuto non potrà andare in overflow. Per questo, è stata inserita la classe overflow-y-auto che aggiungerà, all'evenienza, un barra di scorrimento laterale SOLAMENTE interna al main*/
 }
 
-nav div {
+#speaker-view div {
   padding: 5px;
   margin: 0 5px;
   border-radius: 5px;
 }
 
-nav div:first-child {}
+/******************************** MAIN *****************************************/
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
+
+/*All'applicazione abbiamo dato una dimensione per fare in modo che sia estesa come tutta la pagina*/
+
+main {
+  width: 80%;
+  height: calc(100% - (30px + 30px) - 100px);
+  margin: 30px auto;
+}
+
+.user {
+  width: calc((100% - (6 * 10px)) / 7);
+  aspect-ratio: 16 / 9;
+  min-width: 300px;
+}
+
+.user-information {
+  padding: 7px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-toolbar-light-color);
+  opacity: 0.7;
+}
+
+/******************************** TOOLBAR *****************************************/
