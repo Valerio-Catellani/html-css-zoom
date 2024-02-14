@@ -1,0 +1,57 @@
+/************************************ BODY *************************************/
+
+:root {
+  --color-toolbar-dark-color: #222222;
+  --color-toolbar-light-color: #4a4a4a;
+  --color-primary-color: #000000;
+  --color-icon-green-color: #4bc800;
+  --color-secondary-color: #ffffff;
+  --color-red-color: #bd2814;
+}
+
+.background-primary {
+  background-color: var(--color-primary-color);
+}
+
+.background-toolbar-dark {
+  background-color: var(--color-toolbar-dark-color);
+}
+
+.background-toolbar-light {
+  background-color: var(--color-toolbar-light-color);
+}
+
+.color-secondary {
+  color: var(--color-secondary-color);
+}
+
+.color-icon-green {
+  color: var(--color-icon-green-color);
+}
+
+.color-red {
+  color: var(--color-red-color);
+}
+
+
+* {
+  color: var(--color-secondary-color);
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/************************************ NAVBAR *************************************/
+
+nav {
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+nav div {
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+nav div:first-child {}
